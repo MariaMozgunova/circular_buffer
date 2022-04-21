@@ -3,8 +3,6 @@
 #pragma once
 
 // https://stackoverflow.com/questions/10632251/undefined-reference-to-template-function
-// почти во всех алгоритмах использую только InputIterator в реализации обобщенных алгоритмов
-// на лекции говорили, что обобщенные алгоритмы должны предъявлять минимальные требования к итераторам  
 
 template <typename InputIterator, typename Predicate>
 std::pair<size_t, size_t> count(InputIterator begin, InputIterator end, Predicate pred) {
